@@ -3,8 +3,8 @@ pipeline {
   options { timestamps() }
 
   environment {
-    AWS_REGION   = 'us-east-1'
-    ECR_REGISTRY = '396626623766.dkr.ecr.us-east-1.amazonaws.com'   // <-- replace with yours (no /myapp here)
+    AWS_REGION   = 'us-north-1'
+    ECR_REGISTRY = 'ec2-13-61-4-151.eu-north-1.compute.amazonaws.com'   // <-- replace with yours (no /myapp here)
     IMAGE_NAME   = 'myapp'
     IMAGE_TAG    = 'latest'
   }
